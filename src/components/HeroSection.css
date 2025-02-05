@@ -1,0 +1,52 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  
+  .content {
+    max-width: 50%;
+    margin : 100px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .highlight {
+    color: #f2c94c;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    color: #555555;
+  }
+  
+  .cta {
+    margin-top: 20px;
+  }
+  
+  .signup {
+    padding: 10px 20px;
+    background-color: #f2c94c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .know-more {
+    margin-left: 20px;
+    color: #f2c94c;
+    text-decoration: none;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
