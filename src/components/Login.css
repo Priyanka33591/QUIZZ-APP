@@ -1,0 +1,111 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 200px;
+    background-color: #ffffff;
+  }
+  
+  .login-form {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .quiz {
+    color: black;
+  }
+  
+  .tbpp {
+    color: #f2c94c;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .forgot-password {
+    color: #f2c94c;
+    text-decoration: none;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-btn {
+    background-color: #f2c94c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-btn {
+    background-color: transparent;
+    border: 1px solid #f2c94c;
+    color: #f2c94c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-login-text {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .social-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .facebook-btn,
+  .google-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-image img {
+    max-width: 400px;
+    height: auto;
+  }
+  

@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';  
 import './Header.css';
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleLoginClick = () => {
+    navigate('/login'); 
+  };
+
   return (
     <header className="navbar">
       <div className="logo">
@@ -17,7 +24,7 @@ function Header() {
       </nav>
       <div className="auth-buttons">
         <button className="enter-code">Enter Code</button>
-        <button className="login">Login</button>
+        <button className="login" onClick={handleLoginClick}>Login</button>  {/* On click, redirect to /login */}
       </div>
     </header>
   );
